@@ -1,0 +1,5 @@
+<div class="posts-container">
+    @for (post of posts(); track post) {
+        <app-post [title]="post.title" [price]="post.price"></app-post>
+    }
+</div>

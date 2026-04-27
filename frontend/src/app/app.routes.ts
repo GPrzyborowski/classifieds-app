@@ -1,3 +1,4 @@
 import { Routes } from '@angular/router';
+import { PostList } from './components/post-list/post-list';
 
 export const routes: Routes = [];

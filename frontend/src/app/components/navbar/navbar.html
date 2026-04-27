@@ -1,0 +1,7 @@
+<nav>
+    <ul>
+        @for (item of items; track item) {
+            <a [routerLink]="['/', item.toLowerCase()]">{{item}}</a>
+        }
+    </ul>
+</nav>
